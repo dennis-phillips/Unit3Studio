@@ -9,7 +9,9 @@ namespace Unit3Studio
         
         static void Main(string[] args)
         {
-            string inputString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan sem ut ligula scelerisque sollicitudin. Ut at sagittis augue. Praesent quis rhoncus justo. Aliquam erat volutpat. Donec sit amet suscipit metus, non lobortis massa. Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus";
+            Console.Write("Enter a string:");
+            string inputString = Console.ReadLine();
+            //string inputString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan sem ut ligula scelerisque sollicitudin. Ut at sagittis augue. Praesent quis rhoncus justo. Aliquam erat volutpat. Donec sit amet suscipit metus, non lobortis massa. Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus";
             char[] charArray = inputString.ToCharArray();
             //Console.WriteLine(stringArray.Length);
             Dictionary<char, int> CharacterDictionary = new Dictionary<char, int>();
